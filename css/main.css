@@ -1,0 +1,211 @@
+/* CABECERA */
+.caja{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#616161;
+	padding-left: 60px;
+	float: right;
+}
+
+a:hover{
+	font-size: 16px;
+	color:#E90000;
+	padding-left: 60px;
+	float: right;
+}
+
+/* BANNER */
+.caja-banner{
+	background-image: url(../images/background.jpg);
+	background-position: 10px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.text{
+	color:#fff;
+	position: absolute;
+	font-size: 80px;
+	left: 100px;
+	top:120px;
+}
+
+.text-uno{
+	color:#fff;
+	position: absolute;
+	font-size: 24px;
+	left: 100px;
+	top:200px;
+}
+
+/* CUERPO */
+.caja-cuerpo{
+	background-image: url(../images/tile1.png);
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+
+.caja-cuerpo .about{
+	font-size: 30px;
+	color:#616161;
+	position: absolute;
+	left: 269px;
+	top:50px;
+}
+
+.caja-cuerpo .col-2{
+	height: 400px;
+	padding-top: 105px;
+}
+
+.caja-cuerpo .col-6{
+	padding-top: 100px;
+	text-align: justify;
+}
+
+.caja-cuerpo .col-4{
+	padding-top: 100px;
+	text-align: justify;
+}
+
+/* FOTOS */
+.caja-fotos{
+	position: relative;
+}
+
+.caja-fotos .cuidades{
+	font-size: 25px;
+	color:#616161;
+	padding-top: 40px;
+	position: absolute;
+	left: 561px;
+}
+
+.caja-fotos .col-3{
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+
+.caja-fotos .col-3 img{
+	background-image: url(../images/kitten.jpg);
+	width: 281px;
+	height: 281px;
+	background-position: 0%;
+	border-radius: 5%;
+	background-size: 100% auto;
+	padding:auto;
+}
+
+.caja-fotos .fot-uno img:hover{
+	transform : scale(1.1);
+	-moz-transform : scale(1.1); 
+	-webkit-transform : scale(1.1); 
+	-o-transform : scale(1.1s); 
+	-ms-transform : scale(1.1s);
+}
+
+.caja-fotos .fot-dos img{
+	border:1px solid #616161;
+}
+
+.caja-fotos .fot-dos img:hover{
+	transform : scale(1.1);
+	-moz-transform : scale(1.1); 
+	-webkit-transform : scale(1.1); 
+	-o-transform : scale(1.1s); 
+	-ms-transform : scale(1.1s);
+}
+
+.caja-fotos .fot-tres img{
+	border:1px solid #616161;
+}
+
+.caja-fotos .fot-tres img:hover{
+	transform : scale(1.1);
+	-moz-transform : scale(1.1); 
+	-webkit-transform : scale(1.1); 
+	-o-transform : scale(1.1s); 
+	-ms-transform : scale(1.1s);
+}
+
+.caja-fotos .fot-cuatro img{
+	border:1px solid #616161;
+}
+
+.caja-fotos .fot-cuatro img:hover{
+	transform : scale(1.1);
+	-moz-transform : scale(1.1); 
+	-webkit-transform : scale(1.1); 
+	-o-transform : scale(1.1s); 
+	-ms-transform : scale(1.1s);
+}
+
+.caja-fotos .col-3 .merida{
+	font-family: Arial;
+	text-align: center;
+	padding-top: 15px;
+}
+
+/* VIDEO */
+
+.video-uno{
+	padding-bottom:40px;
+	position: relative;
+	left: 70px;
+
+}
+
+/* PIE */
+.caja-pie{
+	background-image: url(../images/tile2.png);
+	height: 220px;
+	position: relative;
+}
+
+.caja-pie .contac{
+	font-size: 25px;
+	color:#616161;
+	position: absolute;
+	top:40px;
+	left: 590px;
+	bottom: 40px;
+}
+
+.caja-pie .col-12 .foto-uno{
+	position: absolute;
+	padding:10px;
+	height: 100px;
+	top: 80px;
+	left: 510px;
+}
+
+.caja-pie .col-12 .foto-dos{
+	position: absolute;
+	padding:10px;
+	height: 100px;
+	top: 80px;
+	left: 610px;
+}
+
+.caja-pie .col-12 .foto-tres{
+	position: absolute;
+	padding:10px;
+	height: 100px;
+	top: 80px;
+	left: 710px;
+}
+
+.caja-pie .col-12  a img:hover{
+	transform : scale(1.1);
+	-moz-transform : scale(1.1); 
+	-webkit-transform : scale(1.1); 
+	-o-transform : scale(1.1s); 
+	-ms-transform : scale(1.1s);
+}
